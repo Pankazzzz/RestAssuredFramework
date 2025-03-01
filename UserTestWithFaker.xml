@@ -1,0 +1,13 @@
+<suite name="Suite">
+ 
+ <listeners>
+    <listener class-name="api.utilities.ExtentReportManager"/>
+</listeners>
+ 
+  <test name="Test">
+   <classes>
+      <class name="api.test.UserTests"/> 
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
